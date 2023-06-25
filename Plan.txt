@@ -1,0 +1,12 @@
+- Aim Map
+	- Phase 1: Simple Gridshot
+		- Button to start game with 60 second timer.
+		- Give user crosshair that follows camera to aim
+		- Random assignement of visibility to 3 spheres in an 8x10 spanning the users screen.
+			- Each sphere needs hitbox, detection for hits, color, lifetime, and size attributes.
+			- On game start, generate 3 pairs of random numbers, after each hit generate one pair and increase score.
+			- When timer ends, set all spheres invisible and display score at top of screen.
+			
+- Aim Bot
+	- Make a neural network with inputs of score, positions of objects, and output mouse movement. 	
+	- For output, use https://github.com/DaiCapra/Natural-Mouse-Movements-Neural-Networks	
